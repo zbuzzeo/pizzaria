@@ -55,8 +55,9 @@ This site will have six sections:
 7. Inside the "pizza" div, create a p element with a class of "price" and insert the text "19.99." as the content for the p tag.
 
 Repeat Steps 4 - 7 for the following:
+
 pizzaName: Four Loop
-description: Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Mamma Mia!
+description: Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!
 price: 44.44
 
 pizzaName: Conditional Love
@@ -64,11 +65,11 @@ description: This island favorite doesn't give you a chance to say no. Korean bu
 price: 22.14
 
 pizzaName: The DOM
-description: This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be.
+description: This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!
 price: 16.99
 
 pizzaName: Conjunction Function
-description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Print that up!
+description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Return to glory.
 price: 17.02
 
 
