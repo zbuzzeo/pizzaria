@@ -46,6 +46,8 @@ This site will have six sections:
 3. Inside the div element, create a h3 element with a class of "sectionTitle" and insert the text "Today's Special" as the content for the h3 tag.
 4. Inside the div element, create a p element with the id of "special" and insert the text "Conditional Love" as the content for the p tag.
 
+**Commit Your Work**
+
 ###3. Menu
 
 1. Create a section element with an id of "menu".
@@ -124,7 +126,7 @@ price: 17.02
 
 **Commit Your Work**
 
-Congrats on making it this far...
+Good job! Let's stack some pizzas!
 
 
 
