@@ -16,12 +16,12 @@ Your job is to follow the instructions below and render a HTML layout in the `in
 ###The Layout
 This site will have six sections:
 
-I.     Header
-II.    Today's Special
-III.   Menu
-IV.    Subscribe
-V.     Visit
-VI.    Footer
+1. Header
+2. Today's Special
+3. Menu
+4. Subscribe
+5. Visit
+6. Footer
 
 
 
