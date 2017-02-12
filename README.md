@@ -120,7 +120,7 @@ price: 17.02
 1. Create a footer element.
 2. Inside the footer element, create a div with a class of "content".
 3. Inside the div element, create a p element with an id of "credit" and insert the text "Site Design and Development By Your Name" as the content for the p element.
-4. Inside the div element, create a p element with an if of "copyright" and insert the text "&copy 2017 Gin Drinkers Association (GDA)" as the content for the p element.
+4. Inside the div element, create a p element with an id of "copyright" and insert the text "&copy 2017 Gin Drinkers Association (GDA)" as the content for the p element.
 
 **Commit Your Work**
 
