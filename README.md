@@ -23,7 +23,7 @@ This site will have six sections:
 5. Visit
 6. Footer
 
-###Header
+###1. Header
 
 1. Create a header element with an id of "intro".
 2. Inside the header element, create a div element with a class of "content".
@@ -37,12 +37,20 @@ This site will have six sections:
 10. Inside the third li element, create an a tag (anchor tag), insert #subscribe in the href attribute and insert "Subscribe" as the content for the a tag.
 11. Inside the last li element, create an a tag (anchor tag), insert #visit in the href attribute and insert "Visit" as the content for the a tag.
 
-###Today's Special
+###2. Today's Special
 
 1. Create a section element with an id of "today".
 2. Inside the section element, create a div element with the class of "content".
 3. Inside the div element, create a h3 element with a class of "sectionTitle" and insert the text "Today's Special" as the content for the h3 tag.
 4. Inside the div element, create a p element with the id of "special" and insert the text "Conditional Love" as the content for the p tag.
+
+###3. Menu
+
+1. Create a section element with an id of "menu".
+2. Inside the section element, create a div element with the class of "content".
+3. Inside the div element, create a h3 element with a class of "sectionTitle" and insert the text "Menu" as the content for the h3 tag.
+4. Inside the div element, create another div element with an id of "pizza".
+5. Inside the "pizza" div, create a p element with a class of "pizzaName" and insert the text "Object of My Desire" as the content for the p tag.
 
 
 
