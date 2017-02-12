@@ -57,7 +57,9 @@ This site will have six sections:
 Repeat Steps 4 - 7 for the following:
 
 pizzaName: Four Loop
+
 description: Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!
+
 price: 44.44
 
 pizzaName: Conditional Love
@@ -74,9 +76,23 @@ price: 16.99
 
 pizzaName: Conjunction Function
 
-description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Return to glory.
+description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! And return back to glory!
 
 price: 17.02
+
+###4. Subscribe
+
+1. Create a section element with an id of "subscribe".
+2. Inside the section element, create a div element with the class of "content".
+3. Inside the div element, create a h3 element with a class of "sectionTitle" and insert the text "Subscribe" as the content for the h3 tag.
+4. Inside the div element create a p element with an id of "deal" and insert the text "Sign up for our special deals!"
+5. Inside the div element create an input element and add a placeholder="first Name" attribute.
+6. Inside the div element create an input element and add a placeholder="last Name" attribute.
+7. Inside the div element create an input element and add a placeholder="email" attribute.
+
+
+
+
 
 
 
