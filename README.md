@@ -51,6 +51,31 @@ This site will have six sections:
 3. Inside the div element, create a h3 element with a class of "sectionTitle" and insert the text "Menu" as the content for the h3 tag.
 4. Inside the div element, create another div element with an id of "pizza".
 5. Inside the "pizza" div, create a p element with a class of "pizzaName" and insert the text "Object of My Desire" as the content for the p tag.
+6. Inside the "pizza" div, create a p element with a class of "description" and insert the text "A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce." as the content for the p tag.
+7. Inside the "pizza" div, create a p element with a class of "price" and insert the text "19.99." as the content for the p tag.
+
+Repeat Steps 4 - 7 for the following:
+pizzaName: Four Loop
+description: Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Mamma Mia!
+price: 44.44
+
+pizzaName: Conditional Love
+description: This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!
+price: 22.14
+
+pizzaName: The DOM
+description: This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be.
+price: 16.99
+
+pizzaName: Conjunction Function
+description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Print that up!
+price: 17.02
+
+
+
+
+
+
 
 
 
