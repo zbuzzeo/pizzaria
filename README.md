@@ -1,4 +1,4 @@
-# pizzeria
+# Pizzaria
 
 Buonasera prepsters! 
 
