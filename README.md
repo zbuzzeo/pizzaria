@@ -80,7 +80,7 @@ price: 16.99
 
 pizzaName: Conjunction Function
 
-description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! And return back to glory!
+description: Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!
 
 price: 17.02
 
