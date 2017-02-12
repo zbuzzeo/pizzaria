@@ -56,7 +56,7 @@ This site will have six sections:
 
 Repeat Steps 4 - 7 for the following:
 
-pizzaName: Four Loop
+pizzaName: Four Loop--
 description: Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!
 price: 44.44
 
