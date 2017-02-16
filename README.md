@@ -53,7 +53,7 @@ This site will have six sections:
 1. Create a section element with an id of "menu".
 2. Inside the section element, create a div element with the class of "content".
 3. Inside the div element, create a h3 element with a class of "sectionTitle" and insert the text "Menu" as the content for the h3 tag.
-4. Inside the div element, create another div element with an id of "pizza".
+4. Inside the div element, create another div element with a class of "pizza".
 5. Inside the "pizza" div, create a p element with a class of "pizzaName" and insert the text "Object of My Desire" as the content for the p tag.
 6. Inside the "pizza" div, create a p element with a class of "description" and insert the text "A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce." as the content for the p tag.
 7. Inside the "pizza" div, create a p element with a class of "price" and insert the text "19.99." as the content for the p tag.
