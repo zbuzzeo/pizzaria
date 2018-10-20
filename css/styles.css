@@ -1,0 +1,163 @@
+:root{
+      --transition-color-main: rgba(255, 240, 127, 0.7);
+      --transition-color-secondary: rgba(255, 218, 99, 0.7);
+      --main-text-color: rgba(255, 132, 132, 0.7);
+      --secondary-text-color: rgba(255, 94, 94, 0.7);
+      --transition-color-3: rgba(255, 80, 80, 0.7);
+
+      --bg-panel-img-url: url('https://www.ceros.com/originals/wp-content/uploads/2017/05/Is-the-Gradient-Making-a-Comeback.jpg');
+}
+
+body img{
+      background-image: url('http://ironstonepizza.com/wp-content/uploads/2014/05/sample-pizza-feature.jpg');
+}
+
+#fullSize{
+      margin: auto;
+}
+
+.pizzaName, .description, .price{
+      color: black;
+      transition-property: color;
+      transition-duration: 800ms;
+}
+
+.pizzaName:hover, .description:hover, .price:hover{
+      color: var(--transition-color-3);
+}
+
+#topMenu{
+      background: var(--secondary-text-color);
+      width: 35%;
+      margin:auto;
+}
+
+#menuList{
+      font-size: 20px;
+      font-weight: bold;
+      list-style: none;
+      text-align: center;
+}
+
+#today{
+      text-align: center;
+      width: 35%;
+      margin: auto;
+}
+
+#menu{
+      width: 60%;
+      margin:auto;
+}
+
+#subscribe{
+      width: 45%;
+      margin: auto
+}
+
+#addy{
+      list-style: none;
+}
+
+#visit{
+      text-align: center;
+      width: 35%;
+      margin: auto;
+}
+
+#credit,#copyright{
+      text-align: center;
+}
+
+body{
+      background-color: seashell;
+}
+
+#fullSize{
+      margin: auto;
+}
+
+#name,#tagLine{
+      border: 1px outset;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background-color: var(--secondary-text-color);
+      color: black;
+}
+
+body{
+      /* background-image: url('https://media.istockphoto.com/photos/italian-pizza-picture-id582297864?k=6&m=582297864&s=612x612&w=0&h=ekpX4y2-GeGqCC5VzSz0q4Kja9st_e52xfnZMYSi1wY=');
+      background-repeat: repeat-y;
+      background-size: contain; */
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+#today, #menu, #subscribe, #visit{
+      border: 0px solid black;
+      padding: 10px 10px 10px 10px;
+}
+
+.content{
+      vertical-align: middle;
+}
+
+.content:hover{
+      font-size: 20px;
+      border: 0px;
+}
+
+/* background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 100%), url(--bg-panel-img-url); */
+
+#topMenu:hover, #today:hover, #menu:hover, #subscribe:hover, #visit:hover{
+      /* background-image: var(--bg-panel-img-url);
+      background-image: radial-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), var(--bg-panel-img-url); */
+      border: 4px outset;
+}
+
+#topMenu:hover, #today, #menu, #subscribe, #visit{
+      background: var(--main-text-color);
+      color: black;
+      padding: 0px 0px 0px 15px;
+}
+
+/* Transition settings for content universally. */
+
+#topMenu,#today,#menu,#subscribe,#visit{
+      transition-property: background-color;
+      transition-duration: 800ms;
+      color: black;
+}
+
+#today, #subscribe{
+      background: var(--main-text-color);
+      /* transition-property: background-color;
+      transition-duration: 800ms; */
+      color: black;
+}
+
+#today:hover, #subscribe:hover{
+      background: var(--transition-color-main);
+}
+
+#topMenu, #menu, #visit{
+      background: var(--secondary-text-color);
+      /* transition-property: background-color;
+      transition-duration: 800ms; */
+      color: black;
+}
+
+#topMenu:hover, #menu:hover, #visit:hover{
+      background: var(--transition-color-secondary);
+}
+
+#currentSpecial{
+      transition-duration: 800ms;
+}
+
+#currentSpecial:hover{
+      transform: scale(1.5);
+}
