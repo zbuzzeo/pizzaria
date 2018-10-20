@@ -1,4 +1,5 @@
 <html>
+      <link rel="stylesheet" href="css/styles.css">
       <head>
 
             <title>Best Pizza Ever</title>
@@ -9,27 +10,17 @@
             <header id = "intro">
                   <div class = "content">
 
-                        <center>
-                              <h1 id = "name">Pizzaria La DevLeague</h1>
-            
-                              <h2 id = "tagLine">Functional Pizza for All!</h2>
-            
-                              <img src = "assets/pizzaMan.jpeg" alt = "logo" srcset = "" width = 320 height = 320/>
-                        </center>
+                        <h1 id = "name">Pizzaria La DevLeague</h1>
+                        <h2 id = "tagLine">Functional Pizza for All!</h2>
+                        <img id = "fullSize" src = "assets/pizzaMan.jpeg" alt = "logo" srcset = "" width = "320px" height = "320px"/>
             
                         <nav id = "topMenu">
-                              <li class = "guide">
-                                    <a href = #today>Today's Special</a>
-                              </li>
-                              <li class = "guide">
-                                    <a href = #menu>Menu</a>
-                              </li>
-                              <li class = "guide">
-                                    <a href = #subscribe>Subscribe</a>
-                              </li>
-                              <li class = "guide">
-                                    <a href = #visit>Visit</a>
-                              </li>
+                              <ul id="menuList">Jump to: <br>
+                                                      <a href = #today>Today's Special</a> <br>
+                                                      <a href = #menu>Menu</a> <br>
+                                                      <a href = #subscribe>Subscribe</a> <br>
+                                                      <a href = #visit>Visit</a> <br>
+                              </ul>
                         </nav>
             
                   </div>
@@ -37,11 +28,11 @@
 
             <section id = "today">
                   <div class = "content">
-
                         <h3 class = "sectionTitle">Today's Special</h3>
                         <nav id = "toSpecial">
-                              <a href = #currentSpecial>Conditional Love</a>
+                              <a id = #currentSpecial>Conditional Love</a>
                         </nav>
+                        <br>
 
                   </div>
             </section>
@@ -50,7 +41,6 @@
                   <div class = "content">
 
                         <h3 class = "sectionTitle">Menu</h3>
-
                         <div class = "pizza">
 
                               <p class = "pizzaName">Object of My Desire</p>
@@ -58,7 +48,6 @@
                               <p class = "price">$19.99</p>
 
                         </div>
-
                         <div class = "pizza">
 
                               <p class = "pizzaName">Four Loop</p>
@@ -66,7 +55,6 @@
                               <p class = "price">$44.44</p> 
 
                         </div>
-
                         <div class = "pizza">
 
                               <p class = "pizzaName" id = "currentSpecial">Conditional Love</p>
@@ -74,7 +62,6 @@
                               <p class = "price">$22.14</p>
 
                         </div>
-
                         <div class = "pizza">
 
                               <p class = "pizzaName">The DOM</p>
@@ -82,7 +69,6 @@
                               <p class = "price">$16.99</p>
 
                         </div>
-
                         <div class = "pizza">
 
                               <p class = "pizzaName">Conjunction Function</p>
@@ -98,12 +84,11 @@
                   <div class = "content">
 
                         <h3 class = "sectionTitle">Subscribe</h3>
-
                         <p id = "deal">Sign up for our special deals!</p>
-
-                        <input type = "text" name = "fname" placeholder = "First Name"/>
-                        <input type = "text" name = "lname" placeholder = "Last Name"/>
-                        <input type = "text" name = "contact" placeholder = "E-mail"/>
+                        <input type = "text" name = "fname" placeholder = "First Name"/> <br>
+                        <input type = "text" name = "lname" placeholder = "Last Name"/> <br>
+                        <input type = "text" name = "contact" placeholder = "E-mail"/> <br>
+                        <br><br>
 
                   </div>
             </section>
@@ -112,18 +97,18 @@
                   <div class = "content">
 
                         <h3 class = "sectionTitle">Visit</h3>
-
-                        <ul id = "addy">
-                              <li id = "street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
-                              <li id = "map">
+                        <div id = "addy">
+                              2800 Woodlawn Dr. <br>
+                              Honolulu, HI 96802 <br> <br>
+                              
                                     <a href = "https://www.google.com/maps/place/2800+Woodlawn+Dr,+Honolulu,+HI+96822/@21.3088638,-157.8109642,17z/data=!3m1!4b1!4m5!3m4!1s0x7c006d0830002825:0xe41b78ff8cd47a7!8m2!3d21.3088588!4d-157.8087755?hl=ens" target="_blank">View Map</a>
-                              </li>
-                              <br>
-                              <li class = "hours">Monday - Saturday</li>
-                              <li class = "hours">12pm - 12 am</li>
-                              <li class = "hours">Coding On Sundays</li>
-                        </ul>
-
+                              
+                              <br><br>
+                              Monday - Saturday <br>
+                              12pm - 12am <br>
+                              Coding on Sundays <br>
+                        </div>
+                        <br>
                   </div>
             </section>
 
@@ -132,8 +117,7 @@
 
             <div class = "content">
 
-                  <p id = "credit">Site Design and Development by Zekiel Buzzeo</p>
-
+                  <p id = "credit">Site Design and Development by Zeke Buzzeo</p>
                   <p id = "copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
 
             </div>
